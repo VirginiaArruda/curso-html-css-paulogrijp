@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 200, 233);
+    align-items: center;
+    padding: 25px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.btn-header {
+    color: rgb(12, 200, 233);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.main-section {
+    background-image: url("https://panamby.com.br/wp-content/uploads/2020/10/homeslider-1500-l.jpg");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.call {
+    color: white;
+    margin: 50px;
+    background-color: rgba(40, 49, 58, 0.788);
+    
+    width: 100%;
+}
+
+.call-text {
+    padding: 15px;
+
+}
+
+.call-text h1 {
+    font-size: 40px;
+}
+
+.call-text p {
+    font-size: 24px;
+}
+
+.form {
+    background-color: rgb(40, 46, 51);
+    padding:15px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.form input, .form select {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.form .btn-form {
+    background-color: rgb(12, 200, 233);
+    color: white;
+
+}
+
+.second-section {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.card {
+    margin: 40px;
+    text-align: center 
+        
+}
+
+.card img {
+    width: 80px;
+    border-radius: 100%;
+
+}
+
+.card-text a {
+    color: coral;
+    text-decoration: none;
+}
+
+.card p {
+    margin: 40px 0px;
+}
+
+.footer {
+    color: white;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 3px 3px 5px 0px rgba(163,161,163,1);
+    height: 450px;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%; 
+}
+
+.card .card-text {
+    margin: 15px;
+}
+
+.card-text p {
+    margin-bottom: 30px;    
+}
+
+.card-text a {
+     width: 100%;  
+     background-color: coral;
+     display: block;
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     border-radius: 3px;
+     padding: 3px 5px;        
+}

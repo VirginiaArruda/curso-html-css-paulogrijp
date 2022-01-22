@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: rgb(46, 43, 43);
+}
+
+li {
+    margin-left: 20px;
+}
+
+.logo {
+    color: rgb(86, 50, 116);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: rgb(86, 50, 116);
+    border-radius: 10px;
+    padding: 11px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
